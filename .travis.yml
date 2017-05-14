@@ -270,6 +270,7 @@ branches:
   only:
     - master
     - develop
+    - logical
 
 before_install:
   - if [ -n "$GCC_VERSION" ]; then export CXX="g++-${GCC_VERSION}" CC="gcc-${GCC_VERSION}"; fi

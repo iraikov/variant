@@ -58,6 +58,7 @@ branches:
   only:
     - master
     - develop
+    - logical
 
 init:
   - ps: |
